@@ -19,7 +19,7 @@ public class Exercise1 {
 
 		Person person= new Person (name, age);
 
-		System.out.println("Person: "+person.getName() + ", " + person.getAge());
+		System.out.println("Person: "+ person.getName() + ", " + person.getAge());
 
 	}
 }
