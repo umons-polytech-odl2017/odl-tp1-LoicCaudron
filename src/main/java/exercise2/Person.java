@@ -2,14 +2,14 @@ package exercise2;
 
 class Person {
 	private static int populationsize;
-	private static long totalage = 0;
+	private static long totalAge = 0;
 	private int age;
 
 	public Person(int age){
 
 		this.age=age;
 		populationsize++;
-		totalage += age;
+		totalAge += age;
 
 	}
 
@@ -27,4 +27,5 @@ class Person {
 
 		populationsize=0;
 	}
+
 }
