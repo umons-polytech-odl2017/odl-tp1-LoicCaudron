@@ -10,16 +10,16 @@ public class Exercise1 {
 		// return une instance de la classe
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {     // équivalent du void main()
 		// Considérant que cette classe est démarrée en ligne de commande avec un premier paramètre donnant le nom
 		// et un second donnant l'âge (nombre entier), créez un objet Person sur base de ceux-ci.
 		// Ecrivez ensuite le nom et l'âge de cette personne sur la sortie standard.
 		String name=args[0];
-		int age = Integer.parseInt(args[1]);
+		int age = Integer.parseInt(args[1]); //.parseint permet de convertir un élément(string) en un entier
 
 		Person person= new Person (name, age);
 
-		System.out.println("Person: "+ person.getName() + ", " + person.getAge());
+		System.out.println("Person: "+ person.getName() + ", " + person.getAge()); //affichage du nom et de l'âge
 
 	}
 }
